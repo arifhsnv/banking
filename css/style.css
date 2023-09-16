@@ -1,0 +1,3417 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+:root {
+  --primary: #fff;
+  --light-primary: #1d1c31;
+}
+html {
+  font-size: 10px;
+}
+body {
+  font-size: 10px;
+}
+/* ===============header===================== */
+.container {
+  width: 100%;
+  height: 100vh;
+}
+.header {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(45deg, #1b13a6 49.59%, #443cdf 88.57%), #fff;
+}
+.navbar {
+  width: 80%;
+  height: 10vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+}
+.navbar .menu {
+  width: 23.235px;
+  height: 23.235px;
+  display: none;
+}
+.lef-nav {
+  width: 40%;
+  height: 10vh;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 11.917px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.right-nav {
+  width: 60%;
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.right-nav .list {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+.list a {
+  color: #b6b3eb;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 7.945px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.list .home {
+  color: #fff;
+}
+
+.sign-up {
+  width: 54px;
+  height: 22px;
+  color: #fff;
+  font-family: Plus Jakarta Sans;
+  font-size: 7.945px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: center;
+  padding-top: 5px;
+}
+.bank {
+  width: 80%;
+  height: 50vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+}
+.bank .financial {
+  width: 28%;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+}
+.financial h1 {
+  color: #fff;
+  font-family: Plus Jakarta Sans;
+  font-size: 27.807px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 34.759px;
+}
+.financial p {
+  color: #b6b3eb;
+  font-family: Plus Jakarta Sans;
+  font-size: 8.938px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.btn {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.btn .bank-account {
+  width: 118px;
+  height: 35px;
+  border-radius: 3.972px;
+  background: #fff;
+  text-align: center;
+  padding-top: 10px;
+  color: #110c64;
+  font-family: Plus Jakarta Sans;
+  font-size: 8.938px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.btn .more-info {
+  width: 78px;
+  height: 35px;
+  border-radius: 3.972px;
+  border: 0.497px solid rgba(255, 255, 255, 0.2);
+  color: #fff;
+  font-family: Plus Jakarta Sans;
+  font-size: 8.938px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: center;
+  padding-top: 10px;
+}
+.more {
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+}
+.more .percentage {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.more h2 {
+  color: #fff;
+  font-family: Plus Jakarta Sans;
+  font-size: 15.89px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.more .buisness {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.more .buisness p {
+  color: #b6b3eb;
+  font-family: Plus Jakarta Sans;
+  font-size: 7.945px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.phone {
+  width: 72%;
+  height: 50vh;
+  position: relative;
+}
+.phone .screen {
+  margin-left: 200px;
+  width: 118.329px;
+  height: 255.92px;
+}
+.card {
+  width: 169.824px;
+  height: 94.347px;
+  border-radius: 7.448px;
+  background: rgba(14, 10, 95, 0.6);
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 270px;
+  bottom: 140px;
+}
+.card .logo {
+  width: 24.35px;
+  height: 24.35px;
+  margin-left: 20px;
+}
+.card .password {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 7.945px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 12.175px;
+  font-family: "Montserrat", sans-serif;
+  margin-left: 20px;
+}
+.card .limit {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 7.945px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 12.175px;
+}
+.limitation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.limitation p {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 5.959px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 12.175px;
+}
+.valid {
+  display: flex;
+  flex-direction: column;
+}
+.valid p {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 5.959px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 12.175px;
+}
+.valid .infinity {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.valid .infinity p {
+  width: 7.945px;
+  height: 7.945px;
+}
+.advertising {
+  width: 100%;
+  height: 10vh;
+  background: rgba(255, 255, 255, 0.2);
+}
+.advertising .credit {
+  width: 80%;
+  height: 10vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.credit img {
+  margin-top: 20px;
+}
+.credit .binance {
+  width: 89.005px;
+  height: 17.633px;
+}
+.ibm {
+  width: 39.656px;
+  height: 15.674px;
+}
+.pinc {
+  width: 64.914px;
+  height: 15.674px;
+}
+.world-bank {
+  width: 79.746px;
+  height: 15.674px;
+}
+.stripe {
+  width: 38.217px;
+  height: 15.674px;
+}
+/* ================benefits==================== */
+.benefits {
+  width: 80%;
+  height: 50vh;
+  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+}
+.benefits .keys {
+  color: var(--Text, #1d1c31);
+  font-family: Plus Jakarta Sans;
+  font-size: 19.862px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25.821px;
+  margin-top: 60px;
+
+  width: 100%;
+  height: 10vh;
+}
+.deposits {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.deposits div {
+  width: 222.459px;
+  height: 178.762px;
+  border-radius: 3.972px;
+  background: #fff;
+  box-shadow: 0px 11.91747px 31.77992px -5.95873px rgba(26, 24, 65, 0.06);
+}
+.deposits .financial-services {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.financial-services img {
+  width: 39.725px;
+  height: 39.725px;
+  margin-inline: auto;
+}
+.financial-services h2 {
+  color: var(--Text, #1d1c31);
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 9.931px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-inline: auto;
+}
+.financial-services .investment {
+  margin-inline: auto;
+  color: rgba(29, 28, 49, 0.6);
+  text-align: center;
+  font-family: Plus Jakarta Sans;
+  font-size: 7.945px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 13.904px;
+}
+.financial-services .more-information {
+  color: var(--5-d-55-ff, #5d55ff);
+  font-family: Plus Jakarta Sans;
+  font-size: 7.945px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 140px;
+}
+.financial-services .arrow {
+  width: 8.938px;
+  height: 8.938px;
+}
+.others {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  border: none;
+}
+.safety-security {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.safety-security .safety {
+  width: 39.725px;
+  height: 39.725px;
+  margin-inline: auto;
+}
+.safety-security h2 {
+  color: var(--Text, #1d1c31);
+  font-family: Plus Jakarta Sans;
+  font-size: 9.931px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-inline: auto;
+}
+.safety-security .agency {
+  color: rgba(29, 28, 49, 0.6);
+  text-align: center;
+  font-family: Plus Jakarta Sans;
+  font-size: 7.945px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 13.904px;
+  margin-inline: auto;
+}
+.safety-security .others {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.safety-security .others .more-information {
+  color: var(--Text, #1d1c31);
+  font-family: Plus Jakarta Sans;
+  font-size: 7.945px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.safety-security .others .arrow {
+  width: 8.938px;
+  height: 8.938px;
+  margin-right: 10px;
+}
+.economic-stability {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.economic-stability .statistic {
+  width: 39.725px;
+  height: 39.725px;
+  margin-inline: auto;
+}
+.economic-stability h2 {
+  color: var(--Text, #1d1c31);
+  font-family: Plus Jakarta Sans;
+  font-size: 9.931px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-inline: auto;
+}
+.economic-stability .federal-deposit {
+  color: rgba(29, 28, 49, 0.6);
+  text-align: center;
+  font-family: Plus Jakarta Sans;
+  font-size: 7.945px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 13.904px;
+  margin-inline: auto;
+}
+.economic-stability .others {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.economic-stability .others .more-information {
+  color: var(--Text, #1d1c31);
+  font-family: Plus Jakarta Sans;
+  font-size: 7.945px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.economic-stability .others .arrow {
+  width: 8.938px;
+  height: 8.938px;
+  margin-right: 10px;
+}
+/* ======================app========================= */
+.future {
+  width: 60%;
+  height: 50vh;
+  margin-left: 200px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  border-radius: 3.972px;
+  position: relative;
+}
+.future .angle {
+  width: 579.983px;
+  height: 288.006px;
+  object-fit: cover;
+}
+
+.future .download {
+  width: 280.634px;
+  height: 223px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: absolute;
+  right: 100px;
+  top: 40px;
+  background-color: var(--primary);
+}
+.future .download h2 {
+  color: var(--Text, #1d1c31);
+  font-family: Plus Jakarta Sans;
+  font-size: 19.862px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25.821px;
+}
+.future .download p {
+  color: rgba(29, 28, 49, 0.6);
+  font-family: Plus Jakarta Sans;
+  font-size: 7.945px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 13.904px;
+}
+.future .download .image {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.future .download .image img {
+  width: 77.464px;
+  height: 25.821px;
+}
+/* =====================clients========================= */
+.clients {
+  width: 80%;
+  height: 80vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.clients .clients-opinion {
+  width: 100%;
+  height: 10vh;
+}
+.clients .clients-opinion h2 {
+  color: var(--Text, #1d1c31);
+  font-family: Plus Jakarta Sans;
+  font-size: 19.862px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25.821px;
+  margin-left: 60px;
+}
+.clients-opinion .direction {
+  width: 25.821px;
+  height: 25.821px;
+  border-radius: 24.332px;
+  background: rgba(93, 85, 255, 0.1);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.arrows {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.clients-opinion .direction img {
+  width: 11.917px;
+  height: 11.917px;
+}
+
+.clients .customers {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.clients .customers .jerry-helfer {
+  width: 222.459px;
+  height: 179.259px;
+  margin-left: 60px;
+  margin-top: 20px;
+}
+
+.clients .customers .jerry-helfer {
+  display: flex;
+  flex-direction: column;
+  background-color: #5d55ff;
+}
+.jerry-helfer .mobile-banking {
+  color: #fff;
+  font-family: Plus Jakarta Sans;
+  font-size: 7.945px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15.89px;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.jerry-helfer hr {
+  opacity: 0.2;
+}
+
+.jerry-helfer .ellipse {
+  width: 39.725px;
+  height: 39.725px;
+  border-radius: 39.725px;
+  border: 1.49px solid #fff;
+  margin-left: 10px;
+}
+.jerry-helfer .comments {
+  display: flex;
+  flex-direction: row;
+}
+.jerry-helfer .customer-name {
+  color: var(--ffffff, #fff);
+  font-family: Poppins;
+  font-size: 9.931px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.jerry-helfer .mark {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-left: 10px;
+}
+.jerry-helfer .date {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Plus Jakarta Sans;
+  font-size: 6.952px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.jerry-helfer .star {
+  display: flex;
+  flex-direction: row;
+}
+.jerry-helfer .star img {
+  width: 9.931px;
+  height: 9.931px;
+}
+.mary-freund {
+  width: 222.459px;
+  height: 179.259px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.mary-freund .legacy {
+  color: #1d1c31;
+  font-family: Plus Jakarta Sans;
+  font-size: 7.945px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15.89px;
+  margin-top: 20px;
+}
+.mary-freund hr {
+  opacity: 0.9;
+  background: rgba(29, 28, 49, 0.1);
+}
+.mary-freund .ellipse {
+  width: 39.725px;
+  height: 39.725px;
+  border-radius: 39.725px;
+  border: 1.49px solid #fff;
+  box-shadow: 0px 1.98625px 13.40715px 0px rgba(0, 0, 0, 0.2);
+  margin-left: 10px;
+}
+.mary-freund .comments {
+  display: flex;
+  flex-direction: row;
+}
+.mary-freund .comments .mark {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  gap: 4px;
+}
+.mary-freund .mark .name {
+  color: var(--Text, #1d1c31);
+  font-family: Poppins;
+  font-size: 9.931px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.mary-freund .mark .date {
+  color: rgba(29, 28, 49, 0.5);
+  font-family: Plus Jakarta Sans;
+  font-size: 6.952px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.mary-freund .mark {
+  display: flex;
+  flex-direction: row;
+}
+.nicol {
+  width: 222.459px;
+  height: 179.259px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.nicol .breeze {
+  color: #1d1c31;
+  font-family: Plus Jakarta Sans;
+  font-size: 7.945px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15.89px;
+  margin-top: 20px;
+}
+.nicol hr {
+  background: rgba(29, 28, 49, 0.1);
+  opacity: 0.9;
+}
+.nicol .comments {
+  display: flex;
+  flex-direction: row;
+}
+.nicol .comments img {
+  width: 39.725px;
+  height: 39.725px;
+  border-radius: 39.725px;
+  border: 1.49px solid #fff;
+  box-shadow: 0px 1.98625px 13.40715px 0px rgba(0, 0, 0, 0.2);
+  margin-left: 10px;
+}
+
+.nicol .comments .customers {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+
+  height: 8vh;
+}
+.nicol .comments .customers .customer-name {
+  color: var(--Text, #1d1c31);
+  font-family: Poppins;
+  font-size: 9.931px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.nicol .comments .customers .date {
+  color: rgba(29, 28, 49, 0.5);
+  font-family: Plus Jakarta Sans;
+  font-size: 6.952px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.nicol .comments .customers .star {
+  display: flex;
+  flex-direction: row;
+}
+.nicol .comments .customers .star img {
+  width: 9.931px;
+  height: 9.931px;
+}
+.spread{
+  display: none;
+}
+.guideline {
+ 
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #5d55ff;
+}
+
+.guideline .investment {
+ 
+  width: 80%;
+  height: 10vh;
+  margin-inline: auto;
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+.guideline .investment h2 {
+  color: var(--primary);
+  font-family: Plus Jakarta Sans;
+  font-size: 19.862px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25.821px;
+}
+.guideline .investment .left-side {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: Plus Jakarta Sans;
+  font-size: 7.945px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 13.904px;
+ 
+  width: 147px;
+  height: 52px;
+}
+.guideline .investment .right-side {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: Plus Jakarta Sans;
+  font-size: 7.945px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 13.904px;
+  
+  width: 147px;
+  height: 54px;
+}
+.investment .sides {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+
+  width: 100%;
+  gap: 20px;
+}
+
+.guideline .mobile-deposits {
+ 
+  width: 80%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  margin-inline: auto;
+  margin-top: 20px;
+}
+.mobile-deposits .saving-goals {
+
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.mobile-deposits .saving-goals .uptades {
+  border: 0.993px solid rgba(255, 255, 255, 0.1);
+  width: 162.872px;
+  height: 91.367px;
+}
+.saving-goals .uptades .budgeting-tools {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.saving-goals .uptades .budgeting-tools img {
+  width: 11.917px;
+  height: 11.917px;
+  margin-top: 10px;
+}
+.saving-goals .uptades .budgeting-tools p {
+  color: var(--primary);
+  font-family: Plus Jakarta Sans;
+  font-size: 8.938px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 10px;
+}
+.saving-goals .uptades .real-time {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.saving-goals .uptades .real-time img {
+  width: 11.917px;
+  height: 11.917px;
+  margin-top: 10px;
+}
+.saving-goals .uptades .real-time p {
+  color: var(--primary);
+  font-family: Plus Jakarta Sans;
+  font-size: 8.938px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 10px;
+}
+.saving-goals .uptades .invest {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.invest img {
+  width: 11.917px;
+  height: 11.917px;
+  margin-top: 10px;
+}
+.invest p {
+  color: var(--primary);
+  font-family: Plus Jakarta Sans;
+  font-size: 8.938px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 10px;
+}
+.december {
+  
+  width: 116px;
+  height: 27px;
+  border-radius: 3.972px;
+  background-color: var(--primary);
+  margin-top: 120px;
+  font-family: Plus Jakarta Sans;
+  font-size: 8.938px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  color: var(--light-primary);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.future-deposits {
+  width: 162.872px;
+  height: 91.367px;
+  border-radius: 3.972px;
+  border: 0.993px solid rgba(255, 255, 255, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.first-goal {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.first-goal img {
+  width: 11.917px;
+  height: 11.917px;
+}
+.first-goal p {
+  font-family: Plus Jakarta Sans;
+  font-size: 8.938px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: var(--primary);
+}
+.future-investment {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.future-investment img {
+  width: 11.917px;
+  height: 11.755px;
+}
+.future-investment p {
+  font-family: Plus Jakarta Sans;
+  font-size: 8.938px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: var(--primary);
+}
+.future-deposit {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.future-deposit img {
+  width: 11.917px;
+  height: 11.917px;
+}
+.future-deposit p {
+  font-family: Plus Jakarta Sans;
+  font-size: 8.938px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: var(--primary);
+}
+.coming-soon {
+ 
+  width: 116px;
+  height: 27px;
+  border-radius: 3.972px;
+  background-color: var(--primary);
+  margin-top: 120px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: Plus Jakarta Sans;
+  font-size: 8.938px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  color: var(--light-primary);
+}
+.cutting {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.cutting hr {
+  width: 699.161px;
+  height: 0.993px;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.49) 50.52%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+.cutting img{
+  width: 14.897px;
+height: 14.897px;
+color: #5D55FF;
+}
+.support{
+  
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.support .completed{
+  background-color: var(--primary);
+  border-radius: 3.972px;
+  
+  width: 116px;
+  height: 27px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.support .loan-applications{
+  width: 162.872px;
+height: 91.367px;
+border-radius: 3.972px;
+border: 0.993px solid rgba(255, 255, 255, 0.10);
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.support .all-support{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+
+}
+.all-support img{
+  width: 11.917px;
+height: 11.917px;
+
+}
+.all-support p{
+  font-family: Plus Jakarta Sans;
+font-size: 8.938px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+color: var(--primary);
+}
+.support .help{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+ 
+}
+.support .help img{
+  width: 11.917px;
+height: 11.917px;
+}
+.support .help p{
+  font-family: Plus Jakarta Sans;
+font-size: 8.938px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+color: var(--primary);
+}
+.seamless{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.seamless img{
+  width: 11.917px;
+  height: 11.917px;
+}
+.seamless p{
+  font-family: Plus Jakarta Sans;
+font-size: 8.938px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+color: var(--primary);
+}
+.march{
+
+  background-color: var(--primary);
+  width: 116px;
+  height: 27px;
+  border-radius: 3.972px;
+  font-family: Plus Jakarta Sans;
+font-size: 8.938px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+color: var(--light-primary);
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+.paperwork{
+  border-radius: 3.972px;
+border: 0.993px solid rgba(255, 255, 255, 0.10);
+width: 162.872px;
+height: 91.367px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}.enhanced-security{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.enhanced-security img{
+  width: 11.917px;
+  height: 11.917px;
+}
+.enhanced-security p{
+  font-family: Plus Jakarta Sans;
+font-size: 8.938px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+color: var(--primary);
+}
+.reduced-paperwork{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.reduced-paperwork img{
+  width: 11.917px;
+  height: 11.917px;
+}
+.reduced-paperwork p{
+  font-family: Plus Jakarta Sans;
+font-size: 8.938px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+color: var(--primary);
+}
+.funds{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.funds img{
+  width: 11.917px;
+  height: 11.917px;
+}
+.funds p{
+  font-family: Plus Jakarta Sans;
+font-size: 8.938px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+color: var(--primary);
+}
+.cut{
+ 
+  width: 100%;
+  height: 40vh;
+  background: linear-gradient(#ffffff,#ffffff);
+  display: none;
+}
+.cut h2{
+  font-family: Plus Jakarta Sans;
+font-size: 19.363px;
+font-style: normal;
+font-weight: 700;
+line-height: 50.343px; 
+color: var(--primary);
+display: none;
+}
+.guideline{
+ 
+  width: 100%;
+  height: 80vh;
+}
+.guideline .investment{
+  display: none;
+}
+.guideline .mobile-deposits{
+ 
+  width:80%;
+  height: 10vh;
+  display: flex;
+  flex-direction: column;
+  margin-inline: auto;
+  display: none;
+}
+.info{
+  display: none;
+}
+/* =========================footer======================= */
+.footer{
+ 
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  background: rgba(93, 85, 255, 0.10);
+  margin-top: 1490px;
+}
+.news-letter{
+ 
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  flex-direction: row;
+}
+.left-position{
+
+  width:40%;
+  height: 60vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.subscribe{
+ 
+  width: 283.04px;
+height: 121.658px;
+box-shadow: 0px 0px 14.89684px 0.99312px rgba(93, 85, 255, 0.10) inset;
+background-color: var(--light-primary);
+border-radius: 3.972px;
+display: flex;
+flex-direction: column;
+margin-top: 20px;
+margin-left: 20px;
+}
+.subscribe h2{
+  font-family: Plus Jakarta Sans;
+font-size: 9.931px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+color: var(--primary);
+margin-top: 10px;
+margin-left: 20px;
+}
+.subscribe p{
+  color: rgba(255, 255, 255, 0.60);
+font-family: Plus Jakarta Sans;
+font-size: 6.952px;
+font-style: normal;
+font-weight: 400;
+line-height: 11.917px;
+margin-left: 10px;
+margin-top: 10px;
+}
+.button{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.button input{
+  font-family: Plus Jakarta Sans;
+font-size: 7.945px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+color: var(--primary);
+background-color: transparent;
+}
+.button a{
+
+  width: 71px;
+  height: 26px;
+  border-radius: 3.972px;
+background: var(--primary);
+color: var(--light-primary);
+font-family: Plus Jakarta Sans;
+font-size: 7.945px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+.subscribe hr{
+  width: 163.865px;
+height: 0.497px;
+margin-top: 10px;
+margin-left: 24px;
+}
+.menu-help{
+
+  width: 60%;
+  height: 60vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.menu-help .Menu{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.menu-help .Menu h2{
+  font-family: Plus Jakarta Sans;
+  font-size: 9.931px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: var(--light-primary);
+}
+.menu-help .Menu p{
+  color: rgba(29, 28, 49, 0.60);
+font-family: Plus Jakarta Sans;
+font-size: 7.945px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.menu-help .Help{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.menu-help .Help h2{
+  color: var(--light-primary);
+  font-family: Plus Jakarta Sans;
+font-size: 9.931px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.menu-help .Help p{
+  color: rgba(29, 28, 49, 0.60);
+font-family: Plus Jakarta Sans;
+font-size: 7.945px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.inline{
+  
+  width: 699.158px;
+height: 0.497px;
+background: rgba(29, 28, 49, 0.10);
+margin-inline: auto;
+}
+.privacy{
+ 
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.privacy .all-rights{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 100px;
+}
+.privacy .reserve{
+  color: rgba(29, 28, 49, 0.60);
+font-family: Plus Jakarta Sans;
+font-size: 7.945px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.privacy .policy{
+  color: rgba(29, 28, 49, 0.60);
+font-family: Plus Jakarta Sans;
+font-size: 7.945px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.icon{
+  display: flex;
+  flex-direction: row;
+}
+.icon img{
+  width: 11.917px;
+  height: 11.917px;
+  color: #B6B3EB;
+  gap: 10px;
+}
+/* ===================media========================== */
+@media screen and (max-width: 1366px) {
+  .container {
+    width: 100%;
+    height: 100vh;
+  }
+  .header {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(45deg, #1b13a6 49.59%, #443cdf 88.57%), #fff;
+  }
+  .navbar {
+    width: 80%;
+    height: 10vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+  }
+  .navbar .menu {
+    display: none;
+  }
+  .lef-nav {
+    width: 40%;
+    height: 10vh;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-size: 11.917px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .right-nav {
+    width: 60%;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .right-nav .list {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+  }
+  .list a {
+    color: #b6b3eb;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 7.945px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .list .home {
+    color: #fff;
+  }
+
+  .sign-up {
+    width: 54px;
+    height: 22px;
+    color: #fff;
+    font-family: Plus Jakarta Sans;
+    font-size: 7.945px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+    padding-top: 5px;
+  }
+  .bank {
+    width: 80%;
+    height: 50vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+  }
+  .bank .financial {
+    width: 28%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .financial h1 {
+    color: #fff;
+    font-family: Plus Jakarta Sans;
+    font-size: 27.807px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 34.759px;
+  }
+  .financial p {
+    color: #b6b3eb;
+    font-family: Plus Jakarta Sans;
+    font-size: 8.938px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .btn {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .btn .bank-account {
+    width: 118px;
+    height: 35px;
+    border-radius: 3.972px;
+    background: #fff;
+    text-align: center;
+    padding-top: 10px;
+    color: #110c64;
+    font-family: Plus Jakarta Sans;
+    font-size: 8.938px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .btn .more-info {
+    width: 78px;
+    height: 35px;
+    border-radius: 3.972px;
+    border: 0.497px solid rgba(255, 255, 255, 0.2);
+    color: #fff;
+    font-family: Plus Jakarta Sans;
+    font-size: 8.938px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+    padding-top: 10px;
+  }
+  .more {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  .more .percentage {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .more h2 {
+    color: #fff;
+    font-family: Plus Jakarta Sans;
+    font-size: 15.89px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .more .buisness {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .more .buisness p {
+    color: #b6b3eb;
+    font-family: Plus Jakarta Sans;
+    font-size: 7.945px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .phone {
+    width: 72%;
+    height: 50vh;
+    position: relative;
+  }
+  .phone .screen {
+    margin-left: 200px;
+    width: 118.329px;
+    height: 255.92px;
+  }
+  .card {
+    width: 169.824px;
+    height: 94.347px;
+    border-radius: 7.448px;
+    background: rgba(14, 10, 95, 0.6);
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 270px;
+    bottom: 140px;
+  }
+  .card .logo {
+    width: 24.35px;
+    height: 24.35px;
+    margin-left: 20px;
+  }
+  .card .password {
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 7.945px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 12.175px;
+    font-family: "Montserrat", sans-serif;
+    margin-left: 20px;
+  }
+  .card .limit {
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 7.945px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 12.175px;
+  }
+  .limitation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .limitation p {
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 5.959px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12.175px;
+  }
+  .valid {
+    display: flex;
+    flex-direction: column;
+  }
+  .valid p {
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 5.959px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12.175px;
+  }
+  .valid .infinity {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+  .valid .infinity p {
+    width: 7.945px;
+    height: 7.945px;
+  }
+  .advertising {
+    width: 100%;
+    height: 10vh;
+    background: rgba(255, 255, 255, 0.2);
+  }
+  .advertising .credit {
+    width: 80%;
+    height: 10vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .credit img {
+    margin-top: 20px;
+  }
+  .credit .binance {
+    width: 89.005px;
+    height: 17.633px;
+  }
+  .ibm {
+    width: 39.656px;
+    height: 15.674px;
+  }
+  .pinc {
+    width: 64.914px;
+    height: 15.674px;
+  }
+  .world-bank {
+    width: 79.746px;
+    height: 15.674px;
+  }
+  .stripe {
+    width: 38.217px;
+    height: 15.674px;
+  }
+  .benefits {
+    width: 80%;
+    height: 50vh;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .benefits .keys {
+    color: var(--Text, #1d1c31);
+    font-family: Plus Jakarta Sans;
+    font-size: 19.862px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25.821px;
+    margin-top: 60px;
+
+    width: 100%;
+    height: 10vh;
+  }
+  .deposits {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .deposits div {
+    width: 222.459px;
+    height: 178.762px;
+    border-radius: 3.972px;
+    background: #fff;
+    box-shadow: 0px 11.91747px 31.77992px -5.95873px rgba(26, 24, 65, 0.06);
+  }
+  .deposits .financial-services {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .financial-services img {
+    width: 39.725px;
+    height: 39.725px;
+    margin-inline: auto;
+  }
+  .financial-services h2 {
+    color: var(--Text, #1d1c31);
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 9.931px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-inline: auto;
+  }
+  .financial-services .investment {
+    margin-inline: auto;
+    color: rgba(29, 28, 49, 0.6);
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 7.945px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 13.904px;
+  }
+  .financial-services .more-information {
+    color: var(--5-d-55-ff, #5d55ff);
+    font-family: Plus Jakarta Sans;
+    font-size: 7.945px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 140px;
+  }
+  .financial-services .arrow {
+    width: 8.938px;
+    height: 8.938px;
+  }
+  .others {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    border: none;
+  }
+  .safety-security {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .safety-security .safety {
+    width: 39.725px;
+    height: 39.725px;
+    margin-inline: auto;
+  }
+  .safety-security h2 {
+    color: var(--Text, #1d1c31);
+    font-family: Plus Jakarta Sans;
+    font-size: 9.931px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-inline: auto;
+  }
+  .safety-security .agency {
+    color: rgba(29, 28, 49, 0.6);
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 7.945px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 13.904px;
+    margin-inline: auto;
+  }
+  .safety-security .others {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+  .safety-security .others .more-information {
+    color: var(--Text, #1d1c31);
+    font-family: Plus Jakarta Sans;
+    font-size: 7.945px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .safety-security .others .arrow {
+    width: 8.938px;
+    height: 8.938px;
+    margin-right: 10px;
+  }
+  .economic-stability {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .economic-stability .statistic {
+    width: 39.725px;
+    height: 39.725px;
+    margin-inline: auto;
+  }
+  .economic-stability h2 {
+    color: var(--Text, #1d1c31);
+    font-family: Plus Jakarta Sans;
+    font-size: 9.931px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-inline: auto;
+  }
+  .economic-stability .federal-deposit {
+    color: rgba(29, 28, 49, 0.6);
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 7.945px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 13.904px;
+    margin-inline: auto;
+  }
+  .economic-stability .others {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+  .economic-stability .others .more-information {
+    color: var(--Text, #1d1c31);
+    font-family: Plus Jakarta Sans;
+    font-size: 7.945px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .economic-stability .others .arrow {
+    width: 8.938px;
+    height: 8.938px;
+    margin-right: 10px;
+  }
+  .future {
+    width: 60%;
+    height: 50vh;
+    margin-left: 200px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 3.972px;
+    position: relative;
+  }
+  .future .angle {
+    width: 579.983px;
+    height: 288.006px;
+    object-fit: cover;
+  }
+
+  .future .download {
+    width: 280.634px;
+    height: 223px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: absolute;
+    right: 100px;
+    top: 40px;
+    background-color: var(--primary);
+  }
+  .future .download h2 {
+    color: var(--Text, #1d1c31);
+    font-family: Plus Jakarta Sans;
+    font-size: 19.862px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25.821px;
+  }
+  .future .download p {
+    color: rgba(29, 28, 49, 0.6);
+    font-family: Plus Jakarta Sans;
+    font-size: 7.945px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 13.904px;
+  }
+  .future .download .image {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+  .future .download .image img {
+    width: 77.464px;
+    height: 25.821px;
+  }
+  .clients {
+    width: 80%;
+    height: 80vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .clients .clients-opinion {
+    width: 100%;
+    height: 10vh;
+  }
+  .clients .clients-opinion h2 {
+    color: var(--Text, #1d1c31);
+    font-family: Plus Jakarta Sans;
+    font-size: 19.862px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25.821px;
+    margin-left: 60px;
+  }
+  .clients-opinion .direction {
+    width: 25.821px;
+    height: 25.821px;
+    border-radius: 24.332px;
+    background: rgba(93, 85, 255, 0.1);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .arrows {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+  .clients-opinion .direction img {
+    width: 11.917px;
+    height: 11.917px;
+  }
+
+  .clients .customers {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .clients .customers .jerry-helfer {
+    width: 222.459px;
+    height: 179.259px;
+    margin-left: 60px;
+    margin-top: 20px;
+  }
+
+  .clients .customers .jerry-helfer {
+    display: flex;
+    flex-direction: column;
+    background-color: #5d55ff;
+  }
+  .jerry-helfer .mobile-banking {
+    color: #fff;
+    font-family: Plus Jakarta Sans;
+    font-size: 7.945px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15.89px;
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+  .jerry-helfer hr {
+    opacity: 0.2;
+  }
+
+  .jerry-helfer .ellipse {
+    width: 39.725px;
+    height: 39.725px;
+    border-radius: 39.725px;
+    border: 1.49px solid #fff;
+    margin-left: 10px;
+  }
+  .jerry-helfer .comments {
+    display: flex;
+    flex-direction: row;
+  }
+  .jerry-helfer .customer-name {
+    color: var(--ffffff, #fff);
+    font-family: Poppins;
+    font-size: 9.931px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .jerry-helfer .mark {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin-left: 10px;
+  }
+  .jerry-helfer .date {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Plus Jakarta Sans;
+    font-size: 6.952px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .jerry-helfer .star {
+    display: flex;
+    flex-direction: row;
+  }
+  .jerry-helfer .star img {
+    width: 9.931px;
+    height: 9.931px;
+  }
+  .mary-freund {
+    width: 222.459px;
+    height: 179.259px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .mary-freund .legacy {
+    color: #1d1c31;
+    font-family: Plus Jakarta Sans;
+    font-size: 7.945px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15.89px;
+    margin-top: 20px;
+  }
+  .mary-freund hr {
+    opacity: 0.9;
+    background: rgba(29, 28, 49, 0.1);
+  }
+  .mary-freund .ellipse {
+    width: 39.725px;
+    height: 39.725px;
+    border-radius: 39.725px;
+    border: 1.49px solid #fff;
+    box-shadow: 0px 1.98625px 13.40715px 0px rgba(0, 0, 0, 0.2);
+    margin-left: 10px;
+  }
+  .mary-freund .comments {
+    display: flex;
+    flex-direction: row;
+  }
+  .mary-freund .comments .mark {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    gap: 4px;
+  }
+  .mary-freund .mark .name {
+    color: var(--Text, #1d1c31);
+    font-family: Poppins;
+    font-size: 9.931px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .mary-freund .mark .date {
+    color: rgba(29, 28, 49, 0.5);
+    font-family: Plus Jakarta Sans;
+    font-size: 6.952px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .mary-freund .mark {
+    display: flex;
+    flex-direction: row;
+  }
+  .nicol {
+    width: 222.459px;
+    height: 179.259px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .nicol .breeze {
+    color: #1d1c31;
+    font-family: Plus Jakarta Sans;
+    font-size: 7.945px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15.89px;
+    margin-top: 20px;
+  }
+  .nicol hr {
+    background: rgba(29, 28, 49, 0.1);
+    opacity: 0.9;
+  }
+  .nicol .comments {
+    display: flex;
+    flex-direction: row;
+  }
+  .nicol .comments img {
+    width: 39.725px;
+    height: 39.725px;
+    border-radius: 39.725px;
+    border: 1.49px solid #fff;
+    box-shadow: 0px 1.98625px 13.40715px 0px rgba(0, 0, 0, 0.2);
+    margin-left: 10px;
+  }
+
+  .nicol .comments .customers {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  .nicol .comments .customers .customer-name {
+    color: var(--Text, #1d1c31);
+    font-family: Poppins;
+    font-size: 9.931px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .nicol .comments .customers .date {
+    color: rgba(29, 28, 49, 0.5);
+    font-family: Plus Jakarta Sans;
+    font-size: 6.952px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .nicol .comments .customers .star {
+    display: flex;
+    flex-direction: row;
+  }
+  .nicol .comments .customers .star img {
+    width: 9.931px;
+    height: 9.931px;
+  }
+  .spread{
+    display: inline-block;
+  }
+
+  .guideline .mobile-deposits {
+
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    margin-inline: auto;
+    margin-top: 20px;
+  }
+  .mobile-deposits .saving-goals {
+   
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .mobile-deposits .saving-goals .uptades {
+    border: 0.993px solid rgba(255, 255, 255, 0.1);
+    width: 162.872px;
+    height: 91.367px;
+  }
+  .saving-goals .uptades .budgeting-tools {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+  .saving-goals .uptades .budgeting-tools img {
+    width: 11.917px;
+    height: 11.917px;
+    margin-top: 10px;
+  }
+  .saving-goals .uptades .budgeting-tools p {
+    color: var(--primary);
+    font-family: Plus Jakarta Sans;
+    font-size: 8.938px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 10px;
+  }
+  .saving-goals .uptades .real-time {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+  .saving-goals .uptades .real-time img {
+    width: 11.917px;
+    height: 11.917px;
+    margin-top: 10px;
+  }
+  .saving-goals .uptades .real-time p {
+    color: var(--primary);
+    font-family: Plus Jakarta Sans;
+    font-size: 8.938px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 10px;
+  }
+  .saving-goals .uptades .invest {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+  .invest img {
+    width: 11.917px;
+    height: 11.917px;
+    margin-top: 10px;
+  }
+  .invest p {
+    color: var(--primary);
+    font-family: Plus Jakarta Sans;
+    font-size: 8.938px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 10px;
+  }
+  .december {
+    
+    width: 116px;
+    height: 27px;
+    border-radius: 3.972px;
+    background-color: var(--primary);
+    margin-top: 120px;
+    font-family: Plus Jakarta Sans;
+    font-size: 8.938px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    color: var(--light-primary);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .future-deposits {
+    width: 162.872px;
+    height: 91.367px;
+    border-radius: 3.972px;
+    border: 0.993px solid rgba(255, 255, 255, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .first-goal {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+  .first-goal img {
+    width: 11.917px;
+    height: 11.917px;
+  }
+  .first-goal p {
+    font-family: Plus Jakarta Sans;
+    font-size: 8.938px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--primary);
+  }
+  .future-investment {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+  .future-investment img {
+    width: 11.917px;
+    height: 11.755px;
+  }
+  .future-investment p {
+    font-family: Plus Jakarta Sans;
+    font-size: 8.938px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--primary);
+  }
+  .future-deposit {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+  .future-deposit img {
+    width: 11.917px;
+    height: 11.917px;
+  }
+  .future-deposit p {
+    font-family: Plus Jakarta Sans;
+    font-size: 8.938px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--primary);
+  }
+  .coming-soon {
+    
+    width: 116px;
+    height: 27px;
+    border-radius: 3.972px;
+    background-color: var(--primary);
+    margin-top: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 8.938px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    color: var(--light-primary);
+  }
+  .cutting {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .cutting hr {
+    width: 699.161px;
+    height: 0.993px;
+    background: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(255, 255, 255, 0.49) 50.52%,
+      rgba(255, 255, 255, 0) 100%
+    );
+  }
+  .cutting img{
+    width: 14.897px;
+  height: 14.897px;
+  color: #5D55FF;
+  }
+  .support{
+   
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  .support .completed{
+    background-color: var(--primary);
+    border-radius: 3.972px;
+   
+    width: 116px;
+    height: 27px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .support .loan-applications{
+    width: 162.872px;
+  height: 91.367px;
+  border-radius: 3.972px;
+  border: 0.993px solid rgba(255, 255, 255, 0.10);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }
+  .support .all-support{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  
+  }
+  .all-support img{
+    width: 11.917px;
+  height: 11.917px;
+  
+  }
+  .all-support p{
+    font-family: Plus Jakarta Sans;
+  font-size: 8.938px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: var(--primary);
+  }
+  .support .help{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+   
+  }
+  .support .help img{
+    width: 11.917px;
+  height: 11.917px;
+  }
+  .support .help p{
+    font-family: Plus Jakarta Sans;
+  font-size: 8.938px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: var(--primary);
+  }
+  .seamless{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+  .seamless img{
+    width: 11.917px;
+    height: 11.917px;
+  }
+  .seamless p{
+    font-family: Plus Jakarta Sans;
+  font-size: 8.938px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: var(--primary);
+  }
+  .march{
+  
+    background-color: var(--primary);
+    width: 116px;
+    height: 27px;
+    border-radius: 3.972px;
+    font-family: Plus Jakarta Sans;
+  font-size: 8.938px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  color: var(--light-primary);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  }
+  .paperwork{
+    border-radius: 3.972px;
+  border: 0.993px solid rgba(255, 255, 255, 0.10);
+  width: 162.872px;
+  height: 91.367px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }.enhanced-security{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+  .enhanced-security img{
+    width: 11.917px;
+    height: 11.917px;
+  }
+  .enhanced-security p{
+    font-family: Plus Jakarta Sans;
+  font-size: 8.938px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: var(--primary);
+  }
+  .reduced-paperwork{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+  .reduced-paperwork img{
+    width: 11.917px;
+    height: 11.917px;
+  }
+  .reduced-paperwork p{
+    font-family: Plus Jakarta Sans;
+  font-size: 8.938px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: var(--primary);
+  }
+  .funds{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+  .funds img{
+    width: 11.917px;
+    height: 11.917px;
+  }
+  .funds p{
+    font-family: Plus Jakarta Sans;
+  font-size: 8.938px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: var(--primary);
+  }
+  .footer{
+ 
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    background: rgba(93, 85, 255, 0.10);
+    margin-top: 1490px;
+  }
+  .news-letter{
+   
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+  }
+  .left-position{
+  
+    width:40%;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .subscribe{
+   
+    width: 283.04px;
+  height: 121.658px;
+  box-shadow: 0px 0px 14.89684px 0.99312px rgba(93, 85, 255, 0.10) inset;
+  background-color: var(--light-primary);
+  border-radius: 3.972px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-left: 20px;
+  }
+  .subscribe h2{
+    font-family: Plus Jakarta Sans;
+  font-size: 9.931px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: var(--primary);
+  margin-top: 10px;
+  margin-left: 20px;
+  }
+  .subscribe p{
+    color: rgba(255, 255, 255, 0.60);
+  font-family: Plus Jakarta Sans;
+  font-size: 6.952px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 11.917px;
+  margin-left: 10px;
+  margin-top: 10px;
+  }
+  .button{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  .button input{
+    font-family: Plus Jakarta Sans;
+  font-size: 7.945px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: var(--primary);
+  background-color: transparent;
+  }
+  .button a{
+  
+    width: 71px;
+    height: 26px;
+    border-radius: 3.972px;
+  background: var(--primary);
+  color: var(--light-primary);
+  font-family: Plus Jakarta Sans;
+  font-size: 7.945px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  }
+  .subscribe hr{
+    width: 163.865px;
+  height: 0.497px;
+  margin-top: 10px;
+  margin-left: 24px;
+  }
+  .menu-help{
+  
+    width: 60%;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+  .menu-help .Menu{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .menu-help .Menu h2{
+    font-family: Plus Jakarta Sans;
+    font-size: 9.931px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: var(--light-primary);
+  }
+  .menu-help .Menu p{
+    color: rgba(29, 28, 49, 0.60);
+  font-family: Plus Jakarta Sans;
+  font-size: 7.945px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  }
+  .menu-help .Help{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .menu-help .Help h2{
+    color: var(--light-primary);
+    font-family: Plus Jakarta Sans;
+  font-size: 9.931px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  }
+  .menu-help .Help p{
+    color: rgba(29, 28, 49, 0.60);
+  font-family: Plus Jakarta Sans;
+  font-size: 7.945px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  }
+  .inline{
+    
+    width: 699.158px;
+  height: 0.497px;
+  background: rgba(29, 28, 49, 0.10);
+  margin-inline: auto;
+  }
+  .privacy{
+   
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .privacy .reserve{
+    color: rgba(29, 28, 49, 0.60);
+  font-family: Plus Jakarta Sans;
+  font-size: 7.945px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  }
+  .privacy .policy{
+    color: rgba(29, 28, 49, 0.60);
+  font-family: Plus Jakarta Sans;
+  font-size: 7.945px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  }
+  .icon{
+    display: flex;
+    flex-direction: row;
+  }
+  .icon img{
+    width: 11.917px;
+    height: 11.917px;
+    color: #B6B3EB;
+    gap: 10px;
+  }
+  
+ 
+}
+@media screen and (max-width: 600px) {
+  .container {
+    width: 100%;
+    height: 300vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .header {
+    width: 100%;
+    height: 130vh;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(65deg, #362fcc 31.84%, #5d55ff 68.16%), #fff;
+  }
+  .navbar {
+    width: 80%;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+  }
+  .navbar .lef-nav {
+    width: 28%;
+    height: 10vh;
+    color: #fff;
+    font-family: Poppins;
+    font-size: 19.363px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .navbar .right-nav {
+    width: 72%;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+  }
+  .navbar .right-nav .list {
+    display: none;
+  }
+  .navbar .right-nav .sign-up {
+    display: none;
+  }
+  .navbar .right-nav .menu {
+    display: inline-block;
+    width: 23.235px;
+    height: 23.235px;
+  }
+  .bank {
+    width: 100%;
+    height: 110vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .bank .financial {
+    width: 80%;
+    height: 30vh;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  .financial h1 {
+    color: #fff;
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 23.235px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36.789px;
+  }
+  .financial p {
+    color: #b6b3eb;
+    font-family: Plus Jakarta Sans;
+    font-size: 13.554px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 10px;
+  }
+  .btn {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  .btn .bank-account {
+    width: 213px;
+    height: 53px;
+    border-radius: 7.745px;
+    background: #fff;
+    color: #110c64;
+    font-family: Plus Jakarta Sans;
+    font-size: 17.426px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .btn .more-info {
+    width: 214px;
+    height: 53px;
+    color: #fff;
+    font-family: Plus Jakarta Sans;
+    font-size: 17.426px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .more {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .more h2 {
+    color: #fff;
+    font-family: Plus Jakarta Sans;
+    font-size: 19.363px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .more p {
+    color: #b6b3eb;
+    font-family: Plus Jakarta Sans;
+    font-size: 11.618px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .phone {
+    width: 80%;
+    height: 70vh;
+    position: relative;
+    margin-top: 140px;
+    margin-inline: auto;
+  }
+  .phone .screen {
+    width: 157.92px;
+    height: 341.547px;
+  }
+  .phone .card {
+    width: 331.1px;
+    height: 183.944px;
+    position: absolute;
+    left: 0px;
+    top: 150px;
+  }
+  .card .logo {
+    width: 30.98px;
+    height: 30.98px;
+    margin-top: 20px;
+  }
+  .card .password {
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 11.618px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 23.737px;
+    margin-left: 20px;
+  }
+  .card .limitation .limit {
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 11.618px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 23.737px;
+    margin-left: 10px;
+    margin-top: 50px;
+  }
+
+  .card .valid {
+    margin-top: 20px;
+  }
+  .card .valid p {
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 9.681px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23.737px;
+    margin-top: 20px;
+  }
+
+  .card .infinity {
+    width: 11.618px;
+    height: 11.618px;
+  }
+  .advertising {
+    display: none;
+  }
+  .benefits {
+    width: 100%;
+    height: 200vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .benefits .key-benefits {
+    width: 100%;
+    height: 16vh;
+  }
+  .benefits .key-benefits .keys {
+    text-align: center;
+  }
+  .benefits .deposits {
+    width: 100%;
+    height: 184vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .benefits .deposits div {
+    width: 294.311px;
+    height: 320.45px;
+    display: flex;
+    flex-direction: column;
+  }
+ 
+  .financial-services img {
+    width: 67.769px;
+    height: 67.769px;
+  }
+  .financial-services h2 {
+    color: var(--Text, #1d1c31);
+    font-family: Plus Jakarta Sans;
+    font-size: 15.49px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .financial-services .investment {
+    color: rgba(29, 28, 49, 0.6);
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 13.554px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27.108px;
+  }
+  .financial-services .others {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .financial-services .others .more-information {
+    color: var(--Text, #1d1c31);
+    font-family: Plus Jakarta Sans;
+    font-size: 13.554px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .benefits .arrow {
+    display: none;
+  }
+  .benefits .safety-security {
+    width: 294.311px;
+    height: 320.45px;
+    border-radius: 7.745px;
+    background: #fff;
+    box-shadow: 0px 23.23506px 61.96016px -11.61753px rgba(26, 24, 65, 0.06);
+  }
+  .benefits .safety-security .safety {
+    width: 67.769px;
+    height: 67.769px;
+  }
+  .benefits .safety-security h2 {
+    color: var(--Text, #1d1c31);
+    font-family: Plus Jakarta Sans;
+    font-size: 15.49px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .benefits .safety-security .agency {
+    color: rgba(29, 28, 49, 0.6);
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 13.554px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27.108px;
+  }
+  .benefits .safety-security .others {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .benefits .safety-security .others .more-information {
+    color: var(--Text, #1d1c31);
+    font-family: Plus Jakarta Sans;
+    font-size: 13.554px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .economic-stability {
+    width: 294.311px;
+    height: 320.45px;
+    display: flex;
+    flex-direction: column;
+  }
+  .economic-stability .statistic {
+    width: 67.769px;
+    height: 67.769px;
+  }
+  .economic-stability h2 {
+    color: var(--Text, #1d1c31);
+    font-family: Plus Jakarta Sans;
+    font-size: 15.49px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .economic-stability .federal-deposit {
+    color: rgba(29, 28, 49, 0.6);
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 13.554px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27.108px;
+  }
+  .economic-stability .others {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .economic-stability .others .more-information {
+    color: var(--Text, #1d1c31);
+    font-family: Plus Jakarta Sans;
+    font-size: 13.554px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .future {
+    width: 100%;
+    height: 200vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 0 auto;
+  }
+  .future .img-angel {
+    width: 100%;
+    height: 80vh;
+  }
+  .future .img-angel .angle {
+    width: 100%;
+    height: 80vh;
+  }
+  .future .download {
+    width: 50%;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    margin-top: 450px;
+  }
+  .future .download h2 {
+    color: var(--Text, #1d1c31);
+    font-family: Plus Jakarta Sans;
+    font-size: 19.363px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30.012px;
+    margin-left: 10px;
+  }
+  .future .download p {
+    color: rgba(29, 28, 49, 0.6);
+    font-family: Plus Jakarta Sans;
+    font-size: 13.554px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27.108px;
+    margin-left: 10px;
+  }
+  .future .image {
+    width: 116.175px;
+    height: 38.725px;
+    margin-left: 10px;
+  }
+  .clients {
+    display: none;
+  }
+  .cut{
+   
+    width: 100%;
+    height: 40vh;
+    background: linear-gradient(#ffffff,#ffffff);
+    display: inline-block;
+  }
+  .cut h2{
+    font-family: Plus Jakarta Sans;
+  font-size: 19.363px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50.343px; 
+  color: var(--primary);
+  }
+  .guideline{
+   
+    width: 100%;
+    height: 90vh;
+
+  position: relative;
+  }
+ .guideline .spread{
+  display: inline-block;
+ }
+  .guideline .mobile-deposits{
+   
+    height: 80vh;
+  }
+  .cutting{
+    display: none;
+  }
+  .coming-soon{
+    display: none;
+  }
+.future-deposits{
+  display: none;
+}
+.march{
+  display: none;
+}
+.paperwork{
+  display: none;
+}
+.uptades{
+  width: 215.892px;
+height: 157.805px;
+border-radius: 7.745px;
+border: 1.936px solid rgba(255, 255, 255, 0.10);
+position: absolute;
+left: 60px;
+
+}
+.uptades .budgeting-tools img{
+  width: 19.363px;
+height: 19.363px;
+}
+.budgeting-tools p{
+  font-family: Plus Jakarta Sans;
+font-size: 13.554px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+color: var(--primary);
+}
+
+.uptades .real-time img{
+  width: 19.363px;
+height: 19.363px;
+}
+.uptades .real-time p{
+  font-family: Plus Jakarta Sans;
+font-size: 13.554px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+color: var(--primary);
+}
+.uptades .invest img{
+  width: 19.363px;
+  height: 19.363px;
+}
+.uptades .invest p{
+  font-family: Plus Jakarta Sans;
+  font-size: 10.554px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: var(--primary);
+}
+.completed {
+  
+  width: 131px;
+  height: 43px;
+  border-radius: 7.745px;
+  background: var(--primary);
+position: absolute;
+right: 60px;
+top: 60px;
+}
+.december{
+ 
+  width: 131px;
+  height: 43px;
+  border-radius: 7.745px;
+  background: var(--primary);
+  font-family: Plus Jakarta Sans;
+font-size: 15.49px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+color: var(--light-primary);
+position: absolute;
+top: 40px;
+left: 60px;
+}
+.loan-applications{
+  position: absolute;
+  right: 60px;
+}
+.info{
+
+  width: 100%;
+  height: 10vh;
+  margin-bottom: 200px;
+  display: inline-block;
+}.info p{
+  font-family: Plus Jakarta Sans;
+font-size: 13.554px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+color: var(--primary);
+text-align: center;
+}
+.spread{
+
+  width: 100%;
+  height: 50vh;
+  margin-top: 320px;
+background: linear-gradient(#C9D6FF,#E2E2E2);
+text-align: center;
+}
+.spread h2{
+  font-family: Plus Jakarta Sans;
+font-size: 19.363px;
+font-style: normal;
+font-weight: 700;
+color: var(--primary);
+}
+.footer{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #EFEEFF;
+
+}
+.news-letter{
+  
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+}
+.left-position{
+ 
+  width: 100%;
+  height: 40vh;
+}
+.subscribe{
+  
+  width: 100%;
+  height: 40vh;
+  background-color: #EFEEFF;
+  display: flex;
+  flex-direction: column;
+}
+.subscribe h2{
+  font-family: Plus Jakarta Sans;
+font-size: 19.363px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+color: var(--light-primary);
+}
+.subscribe p{
+  font-family: Plus Jakarta Sans;
+font-size: 13.554px;
+font-style: normal;
+font-weight: 400;
+line-height: 23.235px;
+color: var(--light-primary);
+}
+.button{
+  display: flex;
+  flex-direction: column;
+}
+.button input {
+ 
+  width: 40%;
+  height: 4vh;
+  color: #000;
+}
+.subscribe a{
+ 
+  width: 186px;
+  height: 36px;
+  border-radius: 7.745px;
+  background-color: #4E46E8;
+  font-family: Plus Jakarta Sans;
+  font-size: 13.554px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  color: var(--primary);
+}
+.subscribe hr{
+  display: none;
+}
+.menu-help{
+ 
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.menu-help .Menu{
+  display: flex;
+  flex-direction: column;
+}
+.menu-help .Menu h2{
+  font-family: Plus Jakarta Sans;
+font-size: 17.426px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+color: var(--light-primary);
+}
+.menu-help .Menu p{
+  color: rgba(29, 28, 49, 0.60);
+font-family: Plus Jakarta Sans;
+font-size: 13.554px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.menu-help .Help{
+  display: flex;
+  flex-direction: column;
+}
+.menu-help .Help h2{
+  font-family: Plus Jakarta Sans;
+font-size: 17.426px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+color: var(--light-primary);
+}
+.menu-help .Help p{
+  color: rgba(29, 28, 49, 0.60);
+font-family: Plus Jakarta Sans;
+font-size: 13.554px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.inline{
+  display: none;
+}
+.privacy{
+  display: flex;
+  flex-direction: column;
+}
+.all-rights{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.all-rights .reserve{
+  color: rgba(29, 28, 49, 0.60);
+font-family: Plus Jakarta Sans;
+font-size: 13.554px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.all-rights .policy{
+  color: rgba(29, 28, 49, 0.60);
+font-family: Plus Jakarta Sans;
+font-size: 13.554px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.privacy .icon{
+  display: flex;
+  flex-direction: row;
+  order: calc(-1);
+  gap: 20px;
+  margin-left: 60px;
+}
+}
